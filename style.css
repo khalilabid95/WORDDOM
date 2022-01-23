@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    
+}
+.cnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+    
+}
+.cnt-btn{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+button{
+    padding: 1rem 3rem;
+    border-radius: 30%;
+    font-family: monospace;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+}
+#text{
+    width: 70%;
+    height: 30rem;
+    font-size: 3rem;
+}
+#bold, .bold{
+    font-weight: bold;
+}
+
+#italic, .italic{
+    font-style: italic;
+}
+#underline, .underline{
+    text-decoration: underline;
+}
+.border{
+    border: 1px solid black;
+}
+.color{
+    color: blue;
+}
